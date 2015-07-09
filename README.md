@@ -1,5 +1,12 @@
-Interactive visualisation of the Haiti Assistance Program
-==============
+Nepal Stories
+=============
+
+preview here: http://americanredcross.github.io/nepal-stories/index_iframe.html
+
+embed with the following code:
+```
+<iframe src="http://americanredcross.github.io/nepal-stories/" height="429" width="763" border="0"></iframe>
+```
 
 **Technology Used:**
 - [D3.js](http://d3js.org/) v3.5.2
