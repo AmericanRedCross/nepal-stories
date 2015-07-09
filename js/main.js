@@ -71,7 +71,7 @@ function clickedStory(d){
   d3.select("#info-name").text(d.name);
   d3.select("#info-title").text(d.title + ', ' + d.org);
   d3.select("#info-blurb").html(d.story);
-  var imgPath = "img/pics/" + d.id + ".JPG";
+  var imgPath = "img/pics/" + d.id + "_small.JPG";
   d3.select("#info-pic").attr("src", imgPath);
   // is there a link to a story on ifrc.org about the person?
   if(d.web == "null"){
