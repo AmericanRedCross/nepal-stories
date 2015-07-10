@@ -43,14 +43,12 @@ function getGeo(){
         .enter().append("div")
         .attr("class", function(d){return d.id})
         .classed("story-marker", true)
-        .style("width", "40px")
-        .style("height", "40px")
         .style("top", function(d){
-          var top = Math.round(projection([d.lng,d.lat])[1]) - 20;
+          var top = Math.round(projection([d.lng,d.lat])[1]) - 30;
           return top + "px";
         })
         .style("left", function(d){
-          var left = Math.round(projection([d.lng,d.lat])[0]) - 20;
+          var left = Math.round(projection([d.lng,d.lat])[0]) - 30;
           return left + "px";
         })
         .on("click",function(d) { clickedStory(d); })
@@ -71,10 +69,11 @@ function clickedStory(d){
   d3.select("#info-name").text(d.name);
   d3.select("#info-title").text(d.title + ', ' + d.org);
   d3.select("#info-blurb").html(d.story);
+  d3.select("#info-location").select('span').text(d.location);
   var imgPath = "img/pics/" + d.id + "_small.JPG";
   d3.select("#info-pic").attr("src", imgPath);
   // is there a link to a story on ifrc.org about the person?
-  if(d.web == "null"){
+  if(d.url == "null"){
     $("#info-more").hide();
   } else {
     $("#info-more").show();
@@ -84,7 +83,7 @@ function clickedStory(d){
   // show the info/story box
   $("#info").fadeIn();
   // in case the overflow box was previously scrolled down, reset it to the top
-  $("#overflow-box").scrollTop(0);
+  $("#overflow-box").scrollTop(16);
 }
 
 // fires when 'X' is clicked to hide info/story box
