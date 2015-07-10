@@ -14,7 +14,7 @@ html, body {
 	width: 763px;
   height: 429px;
   display: inline-block;
-  background: #e3e3e3;
+  background: #fdfdfd;
   z-index: 1;
 }
 #custom-marker-pane{
