@@ -10,7 +10,7 @@ html, body {
 }
 #map{
 	position:fixed;
-	margin-left: -2px;
+	/*margin-left: -2px;*/
 	width: 763px;
   height: 429px;
   display: inline-block;
@@ -19,7 +19,7 @@ html, body {
 }
 #custom-marker-pane{
 	position:fixed;
-	margin-left: -2px;
+	/*margin-left: -2px;*/
 	width: 763px;
 	height: 429px;
 	display: inline-block;
@@ -38,7 +38,7 @@ html, body {
 	display: none;
 }
 #overflow-box{
-	max-height: 355px;
+	max-height: 368px;
 	overflow: auto;
 	overflow-y: auto;
 	padding: 20px 7px;
@@ -67,7 +67,7 @@ html, body {
 	color: #ed1b2e;
 }
 #info-pic {
-	max-height: 355px;
+	max-height: 368px;
 	margin-right: 12px;
 }
 #info-location {
