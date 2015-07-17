@@ -67,7 +67,7 @@ function getGeo(){
 function clickedStory(d){
   // populate the info/story box fields
   d3.select("#info-name").text(d.name);
-  d3.select("#info-title").text(d.title + ', ' + d.org);
+  d3.select("#info-title").text(d.title + ((d.org !== "") ? ', ' + d.org : ""));
   d3.select("#info-blurb").html(d.story);
   d3.select("#info-location").select('span').text(d.location);
   var imgPath = "img/pics/" + d.id + "_small.JPG";
