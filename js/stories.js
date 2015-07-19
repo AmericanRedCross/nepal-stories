@@ -64,7 +64,7 @@ var stories = [
     "location":"Singati, Dolakha",
     "lng":86.1108398438,
     "lat":27.8973492297,
-    "name":"Dr. Johnnes Schad",
+    "name":"Dr. Johannes Schad",
     "title":"Team Leader",
     "org":"German/Finnish/French Red Cross Basic Health Care Unit",
     "web":"null",
