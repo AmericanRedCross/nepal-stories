@@ -1,5 +1,5 @@
-var width = 763;
-    height = 429;
+var width = 700;
+    height = 400;
 
 var projection = d3.geo.mercator()
     .scale(5000)
@@ -83,7 +83,7 @@ function clickedStory(d){
   // show the info/story box
   $("#info").fadeIn();
   // in case the overflow box was previously scrolled down, reset it to the top
-  $("#overflow-box").scrollTop(16);
+  $("#overflow-box").scrollTop(20);
 }
 
 // fires when 'X' is clicked to hide info/story box
