@@ -5,9 +5,10 @@ preview here: http://americanredcross.github.io/nepal-stories/index_iframe.html
 
 embed with the following code:
 ```
-<iframe src="http://americanredcross.github.io/nepal-stories/" height="400" width="700" style="border-radius: 10px; border: 1px solid #d7d7d8"></iframe>
+<iframe src="http://americanredcross.github.io/nepal-stories/" height="370" width="650"></iframe>
 ```
-**note:** the iframe must be be 700x400 (height x width)  
+
+a larger version (763x429) is available at https://github.com/danbjoseph/nepal-stories
 
 **Technology Used:**
 - [D3.js](http://d3js.org/) v3.5.2
