@@ -11,8 +11,8 @@ html, body {
 #map{
 	position:fixed;
 	/*margin-left: -2px;*/
-	width: 763px;
-  height: 429px;
+	width: 650px;
+  height: 370px;
   display: inline-block;
   background: #fdfdfd;
   z-index: 1;
